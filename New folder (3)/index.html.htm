@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>OCULUS видеорегистратор 3в1</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <!-- CSS -->
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+        <script type="text/javascript" src="../https@ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+ 
+
+<link rel="stylesheet" type="text/css" href="../static.best-gooods.ru/fonts/roboto.css">
+        <script src="../static.best-gooods.ru/js/jquery.js" type="text/javascript"></script>
+        <script src="../static.best-gooods.ru/js/plugins.js" type="text/javascript"></script>
+        
+        <script src="../static.best-gooods.ru/js/detect.js" type="text/javascript"></script>
+        
+        <link href="../static.best-gooods.ru/css/popup-m1-style.css@v=4" rel="stylesheet" type="text/css"/>
+                <script src="js/popup-m1.js@v=4" type="text/javascript"></script>
+
+                <script type="text/javascript">
+                $(function(){
+                    M1.initComebacker(3000);
+                    var M1Text = {
+                        'validation_name': 'Укажите корректные ФИО.',
+                        'validation_phone1': 'Номер телефона может содержать только цифры, символы "+", "-", "(", ")" и пробелы.',
+                        'validation_phone2': 'В вашем телефоне слишком мало цифр.',
+                        'comebacker_text': 'ВНИМАНИЕ'
+                    };
+                    M1.validateAndSendForm(false, M1Text);
+                });
+                </script>
+        
+        <script>
+        var vPlayer = null;
+            $(function() {
+                
+                
+                var product = 2720,
+                    url = location.href,
+                    length = 0,
+                    keyVal = '',
+                    arFio = [],
+                    arPhone = [];
+                        
+                $('input[name=\'phone\']').bind('keyup change', function(){
+                    var form = $(this).parents('form'),
+                        name = form.find('input[name=\'name\']').val(),
+                        phone;
+                    
+                    phone = $(this).val().replace(/\D+/g,'');
+                    if(phone.length >= 8){ 
+                    }
+                });
+                
+                
+                
+                function getFormData() {
+                    arFio = []; 
+                    arPhone = [];
+                    $('form').each(function(){
+                        var phone = $(this).find('input[name=\'phone\']').val();
+                        var fio = $(this).find('input[name=\'name\']').val();
+                        phone = phone.replace(/\D+/g,'');
+                        if (phone.length >= 8){
+                            arPhone.push(phone.toString());
+                            if(typeof fio != 'undefined')
+                                arFio.push(fio.toString());
+                        }
+                    });
+                }
+                
+            });
+        </script> </head>
+    <body>
+            <div class="block" id="block1">
+            <div class="width logo">
+                <div class="title">Ультратонкий регистратор Японского качества</div>
+                <div class="title2"><span>OCULUS</span></div>
+                <div class="title3">избавьтесь от штрафов и спорных ситуаций на дороге</div>
+            </div>
+            <div class="width" style="padding-top: 15px;">
+                <div class="left_box">
+                    <img src="img/product1.png"  width="200" alt="">
+                    <ul style="font-size: 18px;">
+                        <li>• Высокое качество съёмки</li>
+                        <li>• Функции: ночной съёмки, g-сенсор</li>
+                        <li>• Большой, широкий дисплей</li>
+                        <li>• Тонкий, компактный размер вас порадует</li>
+                    </ul>
+                </div>
+                <div class="right_box">
+                    <form class="orderformcdn" action="send.php" 
+    method="POST" 
+    name="order-form"
+    accepted-charset="utf-8"
+                        <h2>Оставьте заявку</h2>
+                        <input type="text" name="name" placeholder="Ваше имя" value="" required>
+                        <input type="text" name="phone" placeholder="Ваш телефон" value="" required>
+                        <button>Заказать</button>
+                    </form>
+                </div>
+            </div>
+            <div class="width">
+                <div class="left_box">
+                    <i class="best1"></i>
+                    <i class="best2"></i>
+                    <div class="timer">
+                        <div class="time_title">До конца <br>акции осталось</div>
+                        <div class="timecase" id="timer">
+                            <div class="timebox">
+                                <span class="hours">00</span>
+                                <p>час</p>
+                            </div>
+                            <div class="timebox">
+                                <span class="minutes">45</span>
+                                <p>мин</p>
+                            </div>
+                            <div class="timebox">
+                                <span class="seconds">00</span>
+                                <p>сек</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_box">
+                    <div class="col50 oldprice">
+                        <p>Старая цена</p>
+                        <p><span class="price_land_s2">8950р</span></p>
+                    </div>
+                    <div class="col50 newprice">
+                        <p>Новая цена</p>
+                        <p><span class="price_land_s1">4490р</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="block" id="block2">
+            <h1>ПРЕИМУЩЕСТВА ВИДЕОРЕГИСТРАТОРА oculus</h1>
+            <div class="width">
+                <div class="item">
+                    <div class="pic"><i class="adv1"></i></div>
+                    <p>Full HD съемка<br>1920х1080</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv2"></i></div>
+                    <p>Функция слежения за разделительной полосой</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv3"></i></div>
+                    <p>Четкий и яркий экран<br>2,4 дюйма</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv4"></i></div>
+                    <p>G-сенсор<br>Фиксирует разгоны<br>и резкие торможения</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv5"></i></div>
+                    <p>Угол обзора<br>160 градусов</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv6"></i></div>
+                    <p>Компактный и мощный<br>видеорегистратор</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv7"></i></div>
+                    <p>Отличное качество<br>видеозаписи</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv8"></i></div>
+                    <p>Функция<br>ночного видения</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv9"></i></div>
+                    <p>Защита от сотрясений<br>Встроенный стабилизатор</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv10"></i></div>
+                    <p>Интерфейс на русском языке</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv11"></i></div>
+                    <p>Датчик движения<br>для авто-съемки</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="adv12"></i></div>
+                    <p>Встроенный<br>микрофон</p>
+                </div>
+            </div>
+        </div>
+        <div class="block" id="block3">
+            <div class="width">
+                <div class="video-container"><div class="youtube" id="xG2sIW9Upjs"></div></div>
+            </div>
+        </div>
+        <div class="block" id="block4">
+            <h1>Что вы получаете с oculus</h1>
+            <div class="width">
+                <div class="item">
+                    <i class="block4_ico1"></i>
+                    <p>Угол обзора 160˚</p>
+                </div>
+                <div class="item">
+                    <i class="block4_ico2"></i>
+                    <p>Ночное видение</p>
+                </div>
+                <div class="item">
+                    <i class="block4_ico3"></i>
+                    <p>5.0 Mpx</p>
+                </div>
+                <div class="item">
+                    <i class="block4_ico4"></i>
+                    <p>Full HD 1080p</p>
+                </div>
+                <div class="item">
+                    <i class="block4_ico5"></i>
+                    <p>Четкое изображение</p>
+                </div>
+            </div>
+        </div>
+        <div class="block" id="block5">
+            <h1>отличия oculus от других регистраторов</h1>
+            <div class="width">
+                <div class="col50">
+                    <img src="img/block5_1.png"  alt="">
+                    <div class="b5name">Обычный видеорегистратор</div>
+                    <ul>
+                        <li>Размытая нечеткая картинка</li>
+                        <li>Нет защиты записи при ударе</li>
+                        <li>Плохо снимает ночью</li>
+                        <li>Угол обзора не более 140 градусов</li>
+                        <li>Нет зума</li>
+                        <li>Неудобное крепление</li>
+                    </ul>
+                </div>
+                <div class="col50 hdsmart">
+                    <img src="img/block5_2.png"  alt="">
+                    <div class="b5name">Регистратор OCULUS</div>
+                    <ul>
+                        <li>Четкая картинка Full-HD</li>
+                        <li>Видны все номера автомобилей</li>
+                        <li>G-Sensor — Защита записи при</li>
+                        <li>возникновении опасных ситуации</li>
+                        <li>Функция ночного видения</li>
+                        <li>Датчик движения</li>
+                        <li>Цифровой зум 4х</li>
+                        <li>Полностью на русском языке</li>
+                        <li>Угол обзора — 160 градусов</li>
+                        <li>Крепление за секунды</li>
+                        <li>Покрытие "Антиблик"</li>
+                    </ul>
+                </div>
+                <a href="#order" class="but">Заказать звонок</a>
+            </div>
+        </div>
+        <div class="block" id="block7">
+            <h1>Отзывы владельцев</h1>
+            <div class="width">
+                <div class="item">
+                    <img src="img/people1.png"  alt="">
+                    <div class="rewiew_title"><span>Максим</span>, 27 лет. г. Санкт-Петербург</div>
+                    <div class="review">
+                        Расскажу немного о покупке. Купил себе видерегистратор 3в1. По истечению двух месяцец могу точно сказать
+                        что покупкой я доволен. Качество видео не уступает качеству сьемки бюджетной видеокамеры, никаких
+                        проблем и нареканий не вызывает. Надо сказать, что я стал себя гараздо комфортнее чувствовать за рулем.
+                        С видеорегистратором я точно знаю, чтобы не произашло, я всегда могу предоставить видеозапись, которая
+                        докажет мою правоту.
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/people2.png"  alt="">
+                    <div class="rewiew_title"><span>Степан</span>, 35 лет. г. Нижний Новгород</div>
+                    <div class="review">
+                        Давно думал о покупке видеорегистратора. Штука, очевидно, полезная. Единсвенное что, как то не попадалсь
+                        под руку модель с нормальной русификацией. Не попадалась до того момента, пока мой друг не обзавелся
+                        отличным видеорегистратором с полностью русским меню и управлением. Я, естественно, поинтересовался, где
+                        он его приобрел. В ответ, он рассказал мне о этом сайте . В тот же день я тоже заказал себе
+                        видеорегистратор и сейчас уверенно могу сказать что не прогадал. Четкость видео отличная, держется
+                        надежно, не скрепит, не трещит, вообщем покупка то что надо. Мне сказали, что мой отзыв разместят на
+                        сайте, поэтому,позволю себе обратиться к его посетителям. Мужики, заказывайте, не ошибетесь.
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/people3.png"  alt="">
+                    <div class="rewiew_title"><span>Александр</span>, 41 год. г. Москва</div>
+                    <div class="review">
+                        Решил написать свой отзыв. Необыкновенно полезная штука! Частенько на дороге возникают спорные
+                        ситуации... Так вот, что сразу бросилось в глаза, так это то, что как только я поставил видеорегистратор
+                        меня стали останавливать, наверно, в 2 раза реже. Перед тем как махнуть жезлом, ГАИшники несколько раз
+                        подумают, так как видят что у меня установлен видеорегистратор. Всем рекомендую!
+                    </div>
+                </div>
+                <a href="#order" class="but">Заказать звонок</a>
+            </div>
+        </div>
+        <div class="block" id="block8">
+            <h1>комплектация oculus</h1>
+            <div class="width">
+                <img src="img/block8.jpg"  alt="">
+            </div>
+        </div>
+        <div class="block" id="block9">
+            <h1>КАК ЗАКАЗАТь oculus</h1>
+            <div class="width">
+                <div class="item">
+                    <div class="pic"><i class="delivery_ico1"></i></div>
+                    <p>Оставьте заявку на сайте</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="delivery_ico2"></i></div>
+                    <p>Дождитесь звонка нашего оператора </p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="delivery_ico3"></i></div>
+                    <p>Получите заказ в ближайшем почтовом отделении</p>
+                </div>
+                <div class="item">
+                    <div class="pic"><i class="delivery_ico4"></i></div>
+                    <p>Оплата заказа только при получении</p>
+                </div>
+            </div>
+        </div>
+        <div class="block" id="block10">
+            <h1>уверенность в каждом заказе</h1>
+            <div class="width">
+                <div class="col50">
+                    <img src="img/sert1.jpg"  alt="">
+                    <p>Оформляя заказ в компании ООО «Торговый Цех» вы можете быть уверены в соблюдении ваших гражданских прав, а также закона «О защите прав потребителей».
+                    </p>
+                </div>
+                <div class="col50">
+                    <img src="img/sert2.jpg"  alt="">
+                    <p>Товар прошел должную сертификацию на территории России.</p>
+                </div>
+            </div>
+        </div>
+        <div class="block" id="block11">
+            <h1>избавьтесь от штрафов и спорных ситуаций на дороге</h1>
+            <div class="width">
+                <div class="left_box">
+                    <img src="img/product2.png"  width="200" alt="">
+                    <div class="timer">
+                        <div class="time_title">До конца <br>акции осталось</div>
+                        <div class="timecase" id="timer2">
+                            <div class="timebox">
+                                <span class="hours">00</span>
+                                <p>час</p>
+                            </div>
+                            <div class="timebox">
+                                <span class="minutes">45</span>
+                                <p>мин</p>
+                            </div>
+                            <div class="timebox">
+                                <span class="seconds">00</span>
+                                <p>сек</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="price">
+                        <div class="oldprice">
+                            <p>Старая цена</p>
+                            <p><span class="price_land_s2">8950р</span></p>
+                        </div>
+                        <div class="newprice">
+                            <p>Новая цена</p>
+                            <p><span class="price_land_s1">4490р</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_box">
+                    <form class="orderformcdn" action="send.php" 
+    method="POST" 
+    name="order-form"
+    accepted-charset="utf-8"
+                        <h2>Оставьте заявку</h2>
+                        <input required type="text" name="name" placeholder="Ваше имя">
+                        <input required type="text" name="phone" placeholder="Ваш телефон">
+                        <button>Заказать</button>
+                    </form>
+                </div>
+                <ul class='alosha'>
+                    <li>Гарантия 12 месяцев</li>
+                    <li>•</li>
+                    <li>Оплата при получении</li>
+                    <li>•</li>
+                    <li>Японское качество</li>
+                </ul>
+            </div>
+        </div>
+        <div class="block" id="block12">
+            <h1>Полная информация о «начинке» регистратора</h1>
+            <div class="width">
+                <ol type="1">
+                    <li>При включении зажигания автомобиля, устройство запускается, и автоматически начинается запись видео.
+                    </li>
+                    <li>В процессе записи и воспроизведения на экране отображаются дата и время. Непрерывная циклическая
+                        видеозапись.
+                    </li>
+                    <li>В режиме воспроизведения можно просмотреть записанное видео прямо на экране устройства.</li>
+                    <li>Качество записываемого видео Full HD 1080p (1920x1080, 30 кадр/сек).</li>
+                    <li>Широкоугольная оптика — 160 градусов.</li>
+                    <li>Датчик движения — Да.</li>
+                    <li>Поддержка карты памяти формата micro-SD и micro-SDHC до 32 Гб.</li>
+                    <li>Интерфейс — AV - Out, HDMI, SD/MMC, USB 2.0.</li>
+                    <li>Отображение информации - светодиодный LED дисплей 2.4.</li>
+                    <li>Меню управления - на русском языке.</li>
+                    <li>Защита видеофайлов от стирания, в т.ч. автозащита текущего файла при резком торможении/ударе —
+                        G-сенсор.
+                    </li>
+                    <li>Возможность включения двух дополнительных светодиодов.</li>
+                    <li>С помощью видео кабеля можно просматривать видеозаписи на телевизоре. Поддерживаются форматы видео NTSC
+                        и PAL.
+                    </li>
+                    <li>Материал корпуса — Усиленный пластик.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="block" id="block13">
+            <div class="width">
+                ООО "Торговый цех" ОГРН 1157847209442 КПП 780101001 ИНН 7801282818
+                <p style="text-align: center; padding-top: 5px"><br><a target="_blank" href="politics.html">Политика конфиденциальности</a></p> <p style="text-align: center; padding-top: 5px"><a target="_blank" href="agreement.html">Пользовательское соглашение</a><br></p>
+            </div>
+        </div>
+        <script src="js/script.js" ></script>
+        <script src="../static.best-gooods.ru/js/previewYouTube.js" ></script>
+    </body>
+</html>
+<!-- 1 -->
